@@ -1,9 +1,9 @@
 body{
 font: 100;
 font-family: outfit;
-background-color: lightgray;
+
 }
-.card {
+.one {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
@@ -16,11 +16,11 @@ background-color: lightgray;
   background-color:pink;
 }
 
-.card:hover {
+.one:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.center {
+.two {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -36,11 +36,9 @@ background-color: aqua;
   padding-top: 90px;
 }
 
-
-
-
 .container {
-  padding: 2px 16px;
+  padding: 62px 96px;
+  background-color: orange;
 }
 h4,p{
 text-align: center;
