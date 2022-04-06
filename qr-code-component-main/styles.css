@@ -1,6 +1,7 @@
-#body{
+body{
 font: 100;
 font-family: outfit;
+background-color: lightgray;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -9,9 +10,10 @@ font-family: outfit;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 150px;
   width: 20%;
   border-radius: 20px;
+  background-color:pink;
 }
 
 .card:hover {
@@ -23,15 +25,19 @@ font-family: outfit;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
+  margin-top: 30px;
 
-
-img {
-
-  padding-top: 5px;
+  background-color: red;
   border-radius: 20px 20px 20px 20px;
   width: 100px;
 }
+img{
+background-color: aqua;
+  padding-top: 90px;
+}
+
+
+
 
 .container {
   padding: 2px 16px;
